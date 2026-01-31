@@ -1,0 +1,19 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executables
+*.exe
+*.out
+main
+unit_tests
+
+# Debug files
+*.dSYM/
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
+
