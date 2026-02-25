@@ -17,3 +17,8 @@ unit_tests
 *~
 .DS_Store
 
+
+# HW3 build artifacts
+hw_3/*.o
+hw_3/test_dynamic_array
+hw_3/main
