@@ -22,3 +22,9 @@ unit_tests
 hw_3/*.o
 hw_3/test_dynamic_array
 hw_3/main
+
+# HW5 build artifacts
+hw_5/kmeans
+hw_5/regression
+hw_5/*.ppm
+hw_5/*.dSYM

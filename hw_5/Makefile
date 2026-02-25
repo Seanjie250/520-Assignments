@@ -1,0 +1,22 @@
+CXX = g++
+CXXFLAGS = -Wall -Wextra -std=c++11 -g
+LDFLAGS = -lm
+
+KMEANS_SRC = kmeans.cpp
+REGRESSION_SRC = regression.cpp
+
+KMEANS_EXEC = kmeans
+REGRESSION_EXEC = regression
+
+all: $(KMEANS_EXEC) $(REGRESSION_EXEC)
+
+$(KMEANS_EXEC): $(KMEANS_SRC)
+	$(CXX) $(CXXFLAGS) -o $(KMEANS_EXEC) $(KMEANS_SRC) $(LDFLAGS)
+
+$(REGRESSION_EXEC): $(REGRESSION_SRC)
+	$(CXX) $(CXXFLAGS) -o $(REGRESSION_EXEC) $(REGRESSION_SRC) $(LDFLAGS)
+
+clean:
+	rm -f $(KMEANS_EXEC) $(REGRESSION_EXEC) *.ppm
+
+.PHONY: all clean
