@@ -1,0 +1,8 @@
+*.o
+*.so
+server/bin/enviro
+*.txt
+sandbox/
+client/node_modules
+client/*.js
+.DS_Store

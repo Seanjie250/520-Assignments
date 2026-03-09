@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+#title-container {
+    height: 20px;
+    background: #eee;
+    padding: 12px 16px 8px 16px;
+    border-bottom: 1pt solid #ddd;
+}
+
+#title {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .agent {
+    fill: #efd;
+    stroke:black;
+    stroke-width: 1
+ }
+
+ text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+ }
+
+ .sensor {
+     stroke: #ddd;
+     stroke-width: 1;
+ }
+
+ .message {
+     padding: 16px;
+     color: yellow;
+     background: black;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+a {
+     color: white;
+ }
+
+ .buttons {
+    position: absolute;
+    right: 10px;
+    top: 5px;     
+ }
+
+ .action-button {
+     margin: 0 4px 0 4px;
+     border-radius: 4px;
+     border-width: 1pt;
+     height: 30px;
+     font-size: 14pt;
+ }
+
+.action-button:hover {
+     cursor: pointer;
+ }
+
+.action-button:active {
+    box-shadow: 0px 0px 5px grey;
+} 
+
+ button:focus {
+     outline:0;
+}
+
+.rotation-indicator {
+    stroke: #888;
+    stroke-width:1
+}

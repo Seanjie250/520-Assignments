@@ -1,0 +1,68 @@
+{
+    "name": "robot_train",
+    "ip": "0.0.0.0",
+    "port": 8765,
+    "buttons": [],
+    "agents": [
+        {
+            "definition": "defs/leader.json",
+            "style": { "fill": "lightblue", "stroke": "black" },
+            "position": { "x": 0, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": { "x": -60, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": { "x": -120, "y": 0, "theta": 0 }
+        },
+        {
+            "definition": "defs/follower.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": { "x": -180, "y": 0, "theta": 0 }
+        }
+    ],
+    "references": [],
+    "invisibles": [],
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+    ]
+}

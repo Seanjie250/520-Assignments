@@ -1,0 +1,21 @@
+{
+    "name": "Follower",
+    "type": "dynamic",
+    "description": "Follower robot that maintains distance from leader",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+        "collision": 5,
+        "linear": 40,
+        "rotational": 600
+    },
+    "sensors": [
+        {
+            "type": "range",
+            "location": { "x": 15, "y": 0 },
+            "direction": 0
+        }
+    ],
+    "mass": 1,
+    "controller": "lib/follower.so"
+}

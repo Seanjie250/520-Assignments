@@ -1,0 +1,86 @@
+{
+
+    "name": "Click to make the robot chase the block",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [
+        {
+            "name": "zoom_in",
+            "label": "Zoom In",
+            "style": { "background": "white", "borderColor": "black" }
+        },
+        {
+            "name": "zoom_out",
+            "label": "Zoom Out",
+            "style": { "background": "white", "borderColor": "black" }
+        },
+        {
+            "name": "toggle_track",
+            "label": "Toggle Tracking",
+            "style": { "background": "white", "borderColor": "black" }
+        }                  
+    ],
+
+    "agents": [         
+        {
+            "definition": "defs/teleporter.json",
+            "style": { "fill": "orange", "stroke": "black" },
+            "position": {
+                "x": 0, 
+                "y": 0, 
+                "theta": 0
+            }
+        },
+        {
+            "definition": "defs/chaser.json",
+            "style": { "fill": "lightgreen", "stroke": "black" },
+            "position": {
+                "x": 110, 
+                "y": 110, 
+                "theta": 1.5
+            }
+        }                         
+    ],
+
+    "statics": [
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350,  "y": 200 },
+                { "x": -340,  "y": 200 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "gray", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        }
+
+    ]
+
+}
